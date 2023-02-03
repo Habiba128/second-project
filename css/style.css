@@ -1,0 +1,367 @@
+ 
+ body{
+   font-family: cursive;
+   color:brown;
+   
+ }
+ .logo{
+    display: inline;
+ font-size: 40px;
+ }
+.header{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+ font-family: cursive;
+ color:brown;
+}
+ .container li{
+    float: right;
+ padding: 2;
+   
+    margin-right: 30;
+ list-style:none ;
+ transition: 1s;
+ position: relative;
+
+ }
+ li::after{
+   content: "";
+   height: 0;
+top: 0;
+  left: 0;
+width: 0;
+border-left:2px solid brown ;
+border-right:2px solid brown ;
+box-sizing: border-box;
+position: absolute;
+transition: .5s;
+ }
+ li:hover::after
+ {
+   height: 100%;
+   width: 100%;
+   
+ }
+ li::before{
+   content: "";
+   height: 0;
+top: 0;
+  left: 0;
+width: 0;
+border-top:2px solid brown ;
+border-bottom:2px solid brown ;
+box-sizing: border-box;
+position: absolute;
+transition: .5s;
+ }
+ li:hover::before
+ {
+   height: 100%;
+   width: 100%;
+   
+ }
+ 
+ a{
+    text-decoration: none;
+ color:brown;
+ }
+ i{
+   font-size: 10px;
+   font: 1.5em sans-serif;
+ }
+ 
+.img_sec1{
+ width: 80%;
+ height: 80%;
+ margin: auto;
+ margin-top: 30px;
+ position: relative;
+ overflow: hidden;
+ background-image: url("vegetables-set-left-black-slate.jpg");
+ background-repeat: none;
+ background-size: 100%;
+ 
+}
+
+h1{
+   font-size: 80px;
+}
+.img_sec1 .content{
+   width: 400;
+   height: 200;
+   position: absolute;
+ z-index: 1;
+ color:brown;
+ margin-top: 200;
+ margin-left: 200;
+}
+.after{
+   width:16px;
+   height: 20px;
+   background-color: brown;
+   float: left;
+   border-radius: 50%;
+   position: absolute;
+   right:58%;
+   bottom: 3;
+   color: black;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10;
+}
+ 
+
+/*********************************/
+.sec2 h2{
+   text-align: center;
+   font-size: 30px;
+font-family: cursive;
+
+}
+.line_sec2
+{
+   width: 90px;
+   height: 2px;
+   background-color: black;
+   margin: auto;
+  
+}
+.sec2 i{
+   
+   background-color: brown;
+   color: black;
+   visibility: hidden;
+}
+.sec2_img div:hover i
+{
+visibility: visible;
+}
+.sec2_img{
+width: 80%;
+height: 45%;
+   margin: auto;
+}
+.sec2_img div{
+   width: 250px;
+   height: 250px;
+ 
+   float: left;
+   margin-left: 35;
+   margin-top: 20;
+}
+img{
+   width: 100%;
+   height: 100%;
+}
+.sec3
+{
+ 
+   width: 80%;
+ 
+margin: auto;
+margin-top: 40px;
+}
+.sec3_info{
+   width: 550;
+   height: 250px;
+
+color:brown;
+margin-left: 10px;
+float: left;
+color:brown;
+position: relative;
+
+}
+.sec3_img{
+   width: 550;
+   height: 250px;
+
+color:black;
+margin-left: 30px;
+float: left;
+}
+.sec3 h3 {
+font-size: 20;
+line-height: .25;
+}
+ 
+ .line_sec3
+{
+   width: 30px;
+   height: 2px;
+   background-color: brown;
+  float: right ;
+ 
+  margin-top: 50;
+  margin-right: 10;
+  
+
+} 
+   
+
+.sec3_img div{
+   height: 220px;
+   width: 250px;
+ 
+   float: left;
+   margin-left: 10;
+   
+transition: .5s;
+}
+
+.sec3_img div:hover{
+   transform :scale(1.07,1.07) ;
+}
+
+/*******************************/
+.sec4
+{
+   width: 100%;
+   margin: auto;
+   height: 500px;
+   
+}
+ .one{
+   text-align: center;
+   margin-top: 40px;
+   width: 220;
+   height: 80;
+   float: left;
+padding: 3px;
+color: black;
+font-size: 15;
+line-height: .25;
+
+}
+ .two{
+   line-height: .25;
+   font-size: 15;
+   text-align: center;
+   margin-top: 40px;
+   width: 220;
+   height: 80;
+   float: left;
+padding: 3px;
+border-left:1px solid black ;
+color: black;
+}
+.sec4 i{
+   font-size: 50;
+   color:bisque;
+  background-position-y:center 5px;
+}
+.sec4 i:hover{
+  background-position-x: left;
+}
+
+
+.one:hover
+{
+   background-position: center -86px;
+}
+/****************************************************************************************************/
+.sec5{
+   width:90% ;
+   margin: auto;
+}
+.sec5 h2{
+   text-align: center;
+}
+.line3{
+   width: 80;
+   height:2px ;
+   background-color: brown;
+   margin: auto;
+   transform:skew(2);
+}
+.sec5_info
+{
+width: 320;
+height: 400;
+float: left;
+margin-left: 20;
+
+margin-top: 10px;
+background-color:white;
+line-height: .25;
+}
+.all{
+   height: 70%;
+ width: 100%;
+ 
+  float: left;
+  position: relative;
+  transform-style:preserve-3d; 
+  transition:all 1s;
+}
+img{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   z-index: 0;
+}
+.front{
+   height: 90%;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   backface-visibility:hidden ;
+}
+.back{
+   height: 90%;
+   width: 100%;
+   
+   position: absolute;
+   transform:rotatey(180deg );
+   text-align: center;
+
+}
+
+.all:hover{
+   transform: rotateY(180deg);
+}
+.sec5 .icons{
+   width: 160px;
+   height:40px ;
+   
+   top:40%;
+   left: 30%;
+   margin: auto;
+   position: absolute;
+   
+}
+.sec5 .icons i{
+   font-size: 40px;
+
+  color:brown;
+
+  
+
+}
+.stars{
+   color: yellow;
+   
+}
+.stars i{
+line-height: 0%;
+  font-size: 15;
+}
+.sec5_list{
+   width: 50%;
+   height: 100px;
+   margin: auto;
+font-family: cursive;
+color:brown;
+}
+.sec5 li
+{
+   list-style: none;
+   float: left;
+ margin-left: 35;
+}
+
+
+
+
+
